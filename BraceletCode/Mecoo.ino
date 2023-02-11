@@ -30,8 +30,8 @@ Servo myservo;  // create servo object to control a servo
 
 bool f_flag = true;
 int pos = 0;    // variable to store the servo position
-float temp_thresh = 27.0;
-float humi_thresh = 15.0;
+float temp_thresh = 38.0;
+float humi_thresh = 16.0;
 
 void setup()
 {
